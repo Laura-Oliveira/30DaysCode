@@ -205,7 +205,7 @@ During the challenge, the following programming concepts are explored:
 |----|------|------|
 | Day 0 | Hello World | ✅ |
 | Day 1 | Data Types | ✅ |
-| Day 2 | Operators | ⏳ |
+| Day 2 | Operators | ✅ |
 | Day 3 | Conditional Statements | ⏳ |
 | Day 4 | Class vs Instance | ⏳ |
 | Day 5 | Loops | ⏳ |
@@ -234,8 +234,6 @@ During the challenge, the following programming concepts are explored:
 | Day 28 | RegEx, Patterns, and Intro to Databases | ⏳ |
 | Day 29 | Bitwise AND | ⏳ |
 | Day 30 | Advanced Challenges | ⏳ |
-
----
 
 ---
 
@@ -303,8 +301,6 @@ This repository demonstrates:
 - 🛠 **Practical programming discipline**
 
 These are key qualities valued by **engineering teams and hiring managers worldwide**, especially in **product-driven tech companies**.
-
----
 
 ---
 
