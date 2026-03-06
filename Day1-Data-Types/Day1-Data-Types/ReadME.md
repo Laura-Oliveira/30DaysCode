@@ -193,17 +193,30 @@ This implementation focuses on:
   
 ---
 
-## 👩‍💻 Author
+## 👩🏻‍💻 About the Developer
 
-Laura Oliveira
+Hi! I'm **Laura Oliveira**, an **Android Mobile Developer** focused on building scalable and modern mobile applications.
 
-Android Developer | Kotlin | Mobile Engineering
-
-**🔗LinkedIn:** https://www.linkedin.com/in/laura-oliveira
-
-**💻GitHub:** https://github.com/Laura-Oliveira
+- 📱 Android development with **Kotlin**
+- 🧠 Strong focus on **clean architecture and code quality**
+- 🌍 Open to **opportunities/relocation** **remote/hybrid**
 
 ---
+
+## 🔗 Connect with Me
+
+💼 **LinkedIn:** https://www.linkedin.com/in/laura-oliveira-mobile/
+
+🌐 **Portfolio:** https://laura-oliveira.github.io/
+
+📧 **Email:** laura.oliveira.tech@gmail.com
+
+---
+
+⭐ If you find this repository helpful, feel free to **star the project**!
+
+#30DaysOfCode #Kotlin #Algorithms #ProblemSolving #SoftwareEngineering
+
 
 
 
