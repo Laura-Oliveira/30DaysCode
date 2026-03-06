@@ -1,4 +1,4 @@
-# 📚 Learning Journey: #30DaysOfCode - Kotlin Challenge
+# 🚀 Kotlin Algorithms Practice – HackerRank 30 Days of Code Challenge
 
 <div align="center">
 
@@ -17,6 +17,8 @@
 
 </div>
 
+---
+
 <p align="center">
   <img src="https://media.licdn.com/dms/image/v2/D4E22AQE1s_iZXwEDnQ/feedshare-shrink_2048_1536/B4EZy_mWobJsAo-/0/1772741028738?e=1774483200&v=beta&t=D-pPz238_yfr0Pz8UPTwPvQbb_25YfPoaZ2n1SF0hgw" width="500"/>
 </p>
@@ -25,7 +27,7 @@
 
 ## 📑 Table of Contents
 
-- [🚀 About the Project](#-about-the-project)
+- [🚀 Project Overview](#-project-overview)
 - [🎯 Project Goals](#-project-goals)
 - [🛠 Tech Stack](#-tech-stack)
 - [📂 Project Structure](#-project-structure)
@@ -39,15 +41,20 @@
 
 ---
 
-## 🚀 About the Project
+## 🚀 Project Overview
 
-This repository contains my solutions for the **30 Days of Code challenge by HackerRank**.
+This repository contains my solutions for the **HackerRank 30 Days of Code Challenge**, implemented using **Kotlin**.
 
-The challenge focuses on strengthening **core computer science fundamentals**, **problem-solving skills**, and **algorithmic thinking**, using **Kotlin** as the main programming language.
+The goal of this challenge is to strengthen:
 
-Each day introduces a new programming concept and a practical coding problem to solve.
+- **Algorithmic Thinking**
+- **Problem-solving Skills**
+- **Core Programming Fundamentals**
 
-**📚 Official Challenge:** https://www.hackerrank.com/domains/tutorials/30-days-of-code
+Each day introduces a **new programming concept and coding challenge**.
+
+**📚 Official Challenge**
+https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 ---
 
@@ -295,13 +302,28 @@ These are key qualities valued by **engineering teams and hiring managers worldw
 
 ---
 
+---
+
 ## 👩🏻‍💻 About the Developer
 
-Hi! I'm **Laura Oliveira**, an **Android Mobile Developer** focused on building scalable and modern mobile applications.
+**Laura Oliveira**  
+Android Engineer | Kotlin Developer
 
-- 📱 Android development with **Kotlin**
-- 🧠 Strong focus on **clean architecture and code quality**
-- 🌍 Open to **opportunities/relocation** **remote/hybrid**
+I build **modern Android applications using Kotlin/Java**, focusing on **clean architecture, scalability, and high-quality code**.
+
+### 🔧 Core Skills
+
+- Kotlin
+- Java
+- Android SDK
+- MVVM Architecture
+- Coroutines & Concurrency
+- Firebase
+- REST APIs
+
+🌍 Open to international opportunities
+
+Remote • Hybrid • Relocation
 
 ---
 
@@ -315,6 +337,8 @@ Hi! I'm **Laura Oliveira**, an **Android Mobile Developer** focused on building 
 
 ---
 
-⭐ If you find this repository helpful, feel free to **star the project**!
+⭐ If you find this project helpful, consider **giving it a star!**
+
+---
 
 #30DaysOfCode #Kotlin #Algorithms #ProblemSolving #SoftwareEngineering
