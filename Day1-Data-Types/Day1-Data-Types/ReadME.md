@@ -1,4 +1,8 @@
-# Kotlin 30 Days of Code — Day 1: Data Types
+<div align="center"> 
+	
+# Kotlin 30 Days of Code — Day 1: Data Types 
+	
+</div>
 
 <div align="center">
 
@@ -48,17 +52,22 @@ This exercise focuses on **primitive data types, safe input parsing, and Kotlin 
 
 ## 📌 Challenge Overview
 
-Part of the **30 Days of Code challenge by HackerRank**.
+This repository contains the solution for **Day 1 – Data Types from the HackerRank 30 Days of Code Challenge**, implemented using **Kotlin**.
 
-The goal of this exercise is to practice **working with primitive data types and input parsing** while reinforcing **Kotlin null-safety patterns**.
+The exercise focuses on strengthening:
+- **Primitive data types**
+- **Console input parsing**
+- **Kotlin null-safety patterns**
 
 The program reads:
-
 - an **Int**
 - a **Double**
 - a **String**
 
 Then combines them with predefined values and prints the results.
+
+**📚 Official Challenge**
+https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 ---
 
@@ -195,11 +204,24 @@ This implementation focuses on:
 
 ## 👩🏻‍💻 About the Developer
 
-Hi! I'm **Laura Oliveira**, an **Android Mobile Developer** focused on building scalable and modern mobile applications.
+**Laura Oliveira**  
+Android Engineer | Kotlin Developer
 
-- 📱 Android development with **Kotlin**
-- 🧠 Strong focus on **clean architecture and code quality**
-- 🌍 Open to **opportunities/relocation** **remote/hybrid**
+I build **modern Android applications using Kotlin/Java**, focusing on **clean architecture, scalability, and high-quality code**.
+
+### 🔧 Core Skills
+
+- Kotlin
+- Java
+- Android SDK
+- MVVM Architecture
+- Coroutines & Concurrency
+- Firebase
+- REST APIs
+
+🌍 Open to international opportunities
+
+Remote • Hybrid • Relocation
 
 ---
 
@@ -213,14 +235,8 @@ Hi! I'm **Laura Oliveira**, an **Android Mobile Developer** focused on building 
 
 ---
 
-⭐ If you find this repository helpful, feel free to **star the project**!
+⭐ If you find this project helpful, consider **giving it a star!**
+
+---
 
 #30DaysOfCode #Kotlin #Algorithms #ProblemSolving #SoftwareEngineering
-
-
-
-
-
-
-
-
