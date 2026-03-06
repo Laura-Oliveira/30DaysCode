@@ -226,9 +226,63 @@ During the challenge, the following programming concepts are explored:
 
 ---
 
+---
+
+# ▶️ Running the Code
+
+<details>
+<summary>Click to expand instructions</summary>
+  
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Laura-Oliveira/30DaysCode.git
+```
+
+### 2️⃣ Navigate to the project
+
+```bash
+cd 30DaysCode
+```
+
+### 3️⃣ Compile the Kotlin code
+
+```bash
+kotlinc Main.kt -include-runtime -d program.jar
+```
+
+### 4️⃣ Run the Program
+
+```bash
+java -jar program.jar
+```
+
+You can also run the solutions using:
+- IntelliJ IDEA [https://www.jetbrains.com/idea/]
+- Android Studio [https://developer.android.com/studio]
+
+</details>
+
+---
+
+## 🧠 Learning Notes
+
+During this challenge I aim to improve:
+	•	**Algorithmic thinking**
+	•	**Kotlin problem-solving patterns**
+	•	**Time complexity awareness**
+	•	**Writing clean and readable code**
+
+Each solution focuses not only on solving the problem, but also on keeping the implementation **clear**, **maintainable**, and **idiomatic** in **Kotlin**.
+
+---
+
 ## 🌍 Why this Project Matters
 
-Consistent algorithm practice is essential for developers who want to build **high-quality software** and succeed in **technical interviews**.
+Consistent algorithm practice is essential for developers who want to:
+- Build **high-quality software**
+- Improve **logical reasoning**
+- Succeed in **technical interviews**
 
 This repository demonstrates:
 
