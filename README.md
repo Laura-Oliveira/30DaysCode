@@ -60,6 +60,7 @@ This project was created to:
 
 ## 📂 Project Structure
 
+```
 30DaysCode
 │
 ├── Day0-Hello-World
@@ -151,6 +152,7 @@ This project was created to:
 │
 └── Day29-Bitwise
     └── Main.kt
+```
 
 ---
 
