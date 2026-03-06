@@ -58,6 +58,102 @@ This project was created to:
 
 ---
 
+## 📂 Project Structure
+
+30DaysCode
+│
+├── Day0-Hello-World
+│   └── Main.kt
+│
+├── Day01-Data-Types
+│   └── Main.kt
+│
+├── Day02-Operators
+│   └── Main.kt
+│
+├── Day03-Conditional-Statements
+│   └── Main.kt
+│
+├── Day04-Class-Instance
+│   └── Main.kt
+│
+├── Day05-Loops
+│   └── Main.kt
+│
+├── Day06-Review
+│   └── Main.kt
+│
+├── Day07-Arrays
+│   └── Main.kt
+│
+├── Day08-Dictionaries-Maps
+│   └── Main.kt
+│
+├── Day09-Recursion
+│   └── Main.kt
+│
+├── Day10-Binary-Numbers
+│   └── Main.kt
+│
+├── Day11-2D-Arrays
+│   └── Main.kt
+│
+├── Day12-Inheritance
+│   └── Main.kt
+│
+├── Day13-Abstract-Classes
+│   └── Main.kt
+│
+├── Day14-Scope
+│   └── Main.kt
+│
+├── Day15-Linked-List
+│   └── Main.kt
+│
+├── Day16-Exceptions-String-Integer
+│   └── Main.kt
+│
+├── Day17-Exceptions
+│   └── Main.kt
+│
+├── Day18-Queues-Stacks
+│   └── Main.kt
+│
+├── Day19-Interfaces
+│   └── Main.kt
+│
+├── Day20-Sorting
+│   └── Main.kt
+│
+├── Day21-Generics
+│   └── Main.kt
+│
+├── Day22-Binary-Search-Trees
+│   └── Main.kt
+│
+├── Day23-BST-Level-Order-Traversal
+│   └── Main.kt
+│
+├── Day24-Linked-Lists
+│   └── Main.kt
+│
+├── Day25-Running-Time-Complexity
+│   └── Main.kt
+│
+├── Day26-Nested-Logic
+│   └── Main.kt
+│
+├── Day27-Testing
+│   └── Main.kt
+│
+├── Day28-RegEx-Patterns-Databases
+│   └── Main.kt
+│
+└── Day29-Bitwise
+    └── Main.kt
+
+---
+
 ## 📚 Topics Covered
 
 During the challenge, the following programming concepts are explored:
@@ -108,8 +204,7 @@ During the challenge, the following programming concepts are explored:
 | Day 26 | Nested Logic | ⏳ |
 | Day 27 | Testing | ⏳ |
 | Day 28 | RegEx, Patterns, and Intro to Databases | ⏳ |
-| Day 29 | Bitwise AND | ⏳ |
-| Day 30 | Advanced Challenges | ⏳ |
+| Day 29 | Bitwise | ⏳ |
 
 ---
 
