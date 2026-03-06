@@ -23,6 +23,22 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [🚀 About the Project](#-about-the-project)
+- [🎯 Project Goals](#-project-goals)
+- [🛠 Tech Stack](#-tech-stack)
+- [📂 Project Structure](#-project-structure)
+- [📚 Topics Covered](#-topics-covered)
+- [📅 Progress](#-progress)
+- [▶️ Running the Code](#️-running-the-code)
+- [🧠 Learning Notes](#-learning-notes)
+- [🌍 Why this Project Matters](#-why-this-project-matters)
+- [👩🏻‍💻 About the Developer](#-about-the-developer)
+- [🔗 Connect with Me](#-connect-with-me)
+
+---
+
 ## 🚀 About the Project
 
 This repository contains my solutions for the **30 Days of Code challenge by HackerRank**.
