@@ -133,7 +133,7 @@ Hi! I'm **Laura Oliveira**, an **Android Mobile Developer** focused on building 
 
 - 📱 Android development with **Kotlin**
 - 🧠 Strong focus on **clean architecture and code quality**
-- 🌍 Open to opportunities/relocation **remote/hybrid**
+- 🌍 Open to **opportunities/relocation** **remote/hybrid**
 
 ---
 
