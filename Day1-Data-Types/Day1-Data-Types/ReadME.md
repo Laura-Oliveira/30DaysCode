@@ -37,16 +37,17 @@ This exercise focuses on **primitive data types, safe input parsing, and Kotlin 
 
 # 📚 Table of Contents
 
-- [Challenge Overview](#-challenge-overview)
-- [Quick Start](#-quick-start)
-- [Example Solution](#-example-solution)
-- [Key Programming Concepts](#-key-programming-concepts)
-- [Kotlin Features Used](#-kotlin-features-used)
-- [Architecture](#-architecture)
-- [Design Decisions](#-design-decisions)
-- [Complexity](#-complexity)
-- [Learning Notes](#-learning-notes)
-- [Author](#-author)
+- [📌 Challenge Overview](#-challenge-overview)
+- [⚡ Quick Start](#-quick-start)
+- [💡 Example Solution](#-example-solution)
+- [🧠 Key Programming Concepts](#-key-programming-concepts)
+- [🧩 Kotlin Features Used](#-kotlin-features-used)
+- [🏗 Architecture](#-architecture)
+- [⚙️ Design Decisions](#-design-decisions)
+- [📈 Complexity](#-complexity)
+- [📚 Learning Notes](#-learning-notes)
+- [👩🏻‍💻 Author](#-author)
+- [🔗 Connect with Me](#-connect-with-me)
 
 ---
 
@@ -202,7 +203,7 @@ This implementation focuses on:
   
 ---
 
-## 👩🏻‍💻 About the Developer
+## 👩🏻‍💻 Author
 
 **Laura Oliveira**  
 Android Engineer | Kotlin Developer
