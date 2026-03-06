@@ -17,6 +17,10 @@
 
 </div>
 
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/v2/D4E22AQE1s_iZXwEDnQ/feedshare-shrink_2048_1536/B4EZy_mWobJsAo-/0/1772741028738?e=1774483200&v=beta&t=D-pPz238_yfr0Pz8UPTwPvQbb_25YfPoaZ2n1SF0hgw" width="500"/>
+</p>
+
 ---
 
 ## 🚀 About the Project
@@ -27,8 +31,7 @@ The challenge focuses on strengthening **core computer science fundamentals**, *
 
 Each day introduces a new programming concept and a practical coding problem to solve.
 
-📚 Official challenge:  
-https://www.hackerrank.com/domains/tutorials/30-days-of-code
+**📚 Official Challenge:** https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 ---
 
@@ -130,7 +133,7 @@ Hi! I'm **Laura Oliveira**, an **Android Mobile Developer** focused on building 
 
 - 📱 Android development with **Kotlin**
 - 🧠 Strong focus on **clean architecture and code quality**
-- 🌍 Open to opportunities in the **European tech market**
+- 🌍 Open to opportunities/relocation **remote/hybrid**
 
 ---
 
