@@ -23,6 +23,20 @@
   <img src="https://media.licdn.com/dms/image/v2/D4E22AQE1s_iZXwEDnQ/feedshare-shrink_2048_1536/B4EZy_mWobJsAo-/0/1772741028738?e=1774483200&v=beta&t=D-pPz238_yfr0Pz8UPTwPvQbb_25YfPoaZ2n1SF0hgw" width="500"/>
 </p>
 
+## 📑 Table of Contents
+
+- [🚀 About the Project](#-about-the-project)
+- [🎯 Project Goals](#-project-goals)
+- [🛠 Tech Stack](#-tech-stack)
+- [📂 Project Structure](#-project-structure)
+- [📚 Topics Covered](#-topics-covered)
+- [📅 Progress](#-progress)
+- [▶️ Running the Code](#️-running-the-code)
+- [🧠 Learning Notes](#-learning-notes)
+- [🌍 Why this Project Matters](#-why-this-project-matters)
+- [👩🏻‍💻 About the Developer](#-about-the-developer)
+- [🔗 Connect with Me](#-connect-with-me)
+
 ## 🚀 About the Project
 
 This repository contains my solutions for the **30 Days of Code challenge by HackerRank**.
@@ -170,6 +184,7 @@ During the challenge, the following programming concepts are explored:
 - Object-Oriented Programming
 - Algorithmic thinking
 - Debugging and code optimization
+- Data Structures fundamentals
 
 ---
 
@@ -210,9 +225,61 @@ During the challenge, the following programming concepts are explored:
 
 ---
 
+# ▶️ Running the Code
+
+<details>
+<summary>Click to expand instructions</summary>
+  
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Laura-Oliveira/30DaysCode.git
+```
+
+### 2️⃣ Navigate to the project
+
+```bash
+cd 30DaysCode
+```
+
+### 3️⃣ Compile the Kotlin code
+
+```bash
+kotlinc Main.kt -include-runtime -d program.jar
+```
+
+### 4️⃣ Run the Program
+
+```bash
+java -jar program.jar
+```
+
+You can also run the solutions using:
+- IntelliJ IDEA [https://www.jetbrains.com/idea/]
+- Android Studio [https://developer.android.com/studio]
+
+</details>
+
+---
+
+## 🧠 Learning Notes
+
+During this challenge I aim to improve:
+	•	**Algorithmic thinking**
+	•	**Kotlin problem-solving patterns**
+	•	**Time complexity awareness**
+	•	**Writing clean and readable code**
+
+Each solution focuses not only on solving the problem, but also on keeping the implementation **clear**, **maintainable**, and **idiomatic** in **Kotlin**.
+
+---
+
 ## 🌍 Why this Project Matters
 
-Consistent algorithm practice is essential for developers who want to build **high-quality software** and succeed in **technical interviews**.
+Consistent algorithm practice is essential for developers who want to:
+- Build **high-quality software**
+- Improve **logical reasoning**
+- Succeed in **technical interviews**
 
 This repository demonstrates:
 
