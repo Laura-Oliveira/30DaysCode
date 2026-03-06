@@ -1,4 +1,8 @@
+<div align="center"> 
+	
 # 🚀 Kotlin Algorithms Practice – HackerRank 30 Days of Code Challenge
+
+</div>
 
 <div align="center">
 
