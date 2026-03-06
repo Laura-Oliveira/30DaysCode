@@ -19,6 +19,10 @@
 
 ---
 
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/v2/D4E22AQE1s_iZXwEDnQ/feedshare-shrink_2048_1536/B4EZy_mWobJsAo-/0/1772741028738?e=1774483200&v=beta&t=D-pPz238_yfr0Pz8UPTwPvQbb_25YfPoaZ2n1SF0hgw" width="500"/>
+</p>
+
 ## 🚀 About the Project
 
 This repository contains my solutions for the **30 Days of Code challenge by HackerRank**.
