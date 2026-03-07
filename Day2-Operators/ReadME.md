@@ -144,15 +144,15 @@ This approach improves:
 
 Some engineering decisions made in this implementation:
 
-• **Input contract assumption** — `readLine()!!` is used because the HackerRank environment guarantees that valid input will always be provided. This keeps the implementation concise and avoids unnecessary defensive checks in a controlled runtime.
+- **Input contract assumption** — `readLine()!!` is used because the HackerRank environment guarantees that valid input will always be provided. This keeps the implementation concise and avoids unnecessary defensive checks in a controlled runtime.
 
-• **Input normalization** — `trim()` ensures that any leading or trailing whitespace is removed before parsing values, preventing formatting inconsistencies from affecting the calculation.
+- **Input normalization** — `trim()` ensures that any leading or trailing whitespace is removed before parsing values, preventing formatting inconsistencies from affecting the calculation.
 
-• **Deterministic numeric parsing** — `toDouble()` and `toInt()` are used for direct type conversion, ensuring predictable numeric inputs for the calculation pipeline.
+- **Deterministic numeric parsing** — `toDouble()` and `toInt()` are used for direct type conversion, ensuring predictable numeric inputs for the calculation pipeline.
 
-• **Separation of concerns** — the `solve()` function encapsulates the core calculation logic, while `main()` is responsible only for input handling and orchestration.
+- **Separation of concerns** — the `solve()` function encapsulates the core calculation logic, while `main()` is responsible only for input handling and orchestration.
 
-• **Single-point rounding strategy** — `roundToInt()` is applied only to the final computed value, ensuring arithmetic precision throughout the calculation and producing a deterministic integer output.
+- **Single-point rounding strategy** — `roundToInt()` is applied only to the final computed value, ensuring arithmetic precision throughout the calculation and producing a deterministic integer output.
 
 This structure keeps the solution **clear, deterministic, and aligned with common competitive programming practices**, while still reflecting principles used in production-grade software design.
 
