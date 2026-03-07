@@ -1,6 +1,6 @@
 <div align="center"> 
 	
-# Kotlin 30 Days of Code — Day 2: Operators 
+# Kotlin 30 Days of Code — Day 3: Conditional Statements 
 	
 </div>
 
@@ -23,9 +23,9 @@
 
 <div align="center">
 	
-Solutions for **Day 2 – Operators** from the **HackerRank 30 Days of Code challenge**, implemented in **Kotlin**.
+Solutions for **Day 3 – Conditional Statements** from the **HackerRank 30 Days of Code challenge**, implemented in **Kotlin**.
 
-This exercise focuses on **arithmetic operations, rounding, and input validation**, highlighting clean, maintainable, and scalable coding practices.
+This exercise focuses on **conditional logic, control flow, and Kotlin's `when` expression** to evaluate numeric ranges and determine program output.
 
 </div>
 
@@ -51,27 +51,27 @@ This exercise focuses on **arithmetic operations, rounding, and input validation
 
 ---
 
-## 📌 Challenge Overview
+# 📌 Challenge Overview
 
-This repository contains the solution for **Day 2 – Operators from the HackerRank 30 Days of Code Challenge**, implemented using **Kotlin**.
+This repository contains the solution for **Day 3 – Conditional Statements from the HackerRank 30 Days of Code Challenge**, implemented using **Kotlin**.
 
-The exercise focuses on:
-- **Calculating total meal cost** including tip and tax  
-- **Precise rounding** of floating-point operations  
+The goal of the challenge is to evaluate an integer and determine whether it should be classified as **"Weird"** or **"Not Weird"** based on specific conditions.
 
-The program reads:
-- **meal price** (Double)  
-- **tip percent** (Int)  
-- **tax percent** (Int)  
+The program performs the following logic:
 
-It then computes the **total cost of the meal** and prints the rounded result.
+- If **N is odd** → print **"Weird"**
+- If **N is even and between 2 and 5** → print **"Not Weird"**
+- If **N is even and between 6 and 20** → print **"Weird"**
+- If **N is even and greater than 20** → print **"Not Weird"**
 
-**📚 Official Challenge**  
-https://www.hackerrank.com/challenges/30-operators
+The input consists of a **single positive integer**.
+
+📚 Official Challenge  
+https://www.hackerrank.com/challenges/30-conditional-statements
 
 ---
 
-## ⚡ Quick Start
+# ⚡ Quick Start
 
 Run the solution locally.
 
@@ -79,6 +79,7 @@ Run the solution locally.
 kotlinc Main.kt -include-runtime -d program.jar
 java -jar program.jar
 ```
+
 ---
 
 ## 💡 Example Solution
@@ -86,22 +87,21 @@ java -jar program.jar
 ```kotlin
 fun main()
 {
-    val meal_cost = readLine()!!.trim().toDouble()
+    val N = readLine()!!.trim().toInt()
 
-    val tip_percent = readLine()!!.trim().toInt()
-
-    val tax_percent = readLine()!!.trim().toInt()
-
-    solve(meal_cost, tip_percent, tax_percent)
-}
-
-fun solve(meal_cost: Double, tip_percent: Int, tax_percent: Int): Unit
-{
-    val tip = (meal_cost * tip_percent) / 100
-    val tax = (meal_cost * tax_percent) / 100
-    var totalCost = (meal_cost + tip + tax).roundToInt()
-
-    println(totalCost)
+    if(N % 2 != 0)
+    {
+        println("Weird")
+    }
+    else
+    {
+        when(N)
+        {
+            in 2..5 -> println("Not Weird")
+            in 6..20 -> println("Weird")
+            else -> println("Not Weird")
+        }
+    }
 }
 ```
 
@@ -109,9 +109,10 @@ fun solve(meal_cost: Double, tip_percent: Int, tax_percent: Int): Unit
 
 ## 🧠 Key Programming Concepts
 
-- **Arithmetic Operations:** Addition, multiplication, percentage calculation
-- **Rounding:** Converting floating-point total cost to nearest integer
-- **Separation of Concerns:** solve() handles business logic, main() handles input
+- **Conditional Statements** — using if and when to control program flow
+- **Modulo Operator** — determining whether a number is odd or even
+- **Range Evaluation** — checking if values fall within defined intervals
+- **Control Flow** — selecting the correct output based on multiple conditions
 
 ---
 
@@ -119,24 +120,23 @@ fun solve(meal_cost: Double, tip_percent: Int, tax_percent: Int): Unit
 
 - readLine()
 - trim()
-- toDouble()
 - toInt()
-- roundToInt()
+- if expressions
+- when expressions
+- Range operators (..)
 - Non-null assertion operator (!!)
 
 ---
 
 ## 🏗 Architecture
 
-The solution was structured to separate responsibilities into small functions:
+The solution is intentionally minimal, as typical in competitive programming.
+
 | Component | Responsibility |
 |---|---|
-| `main()` | 📥 Reads and parses input |
-| `solve()` | ⚙️ Performs the cost calculation |
+| `main()` | 📥 Reads input and evaluates conditions |
 
-This approach improves:
-- Readability
-- Maintainability
+All logic is executed directly within main() to keep the solution concise and aligned with HackerRank challenge constraints.
 
 ---
 
@@ -148,13 +148,13 @@ Some engineering decisions made in this implementation:
 
 - **Input normalization** — `trim()` ensures that any leading or trailing whitespace is removed before parsing values, preventing formatting inconsistencies from affecting the calculation.
 
-- **Deterministic numeric parsing** — `toDouble()` and `toInt()` are used for direct type conversion, ensuring predictable numeric inputs for the calculation pipeline.
+- **Odd number detection** — the modulo operator % is used to determine whether the input number is odd or even.
 
-- **Separation of concerns** — the `solve()` function encapsulates the core calculation logic, while `main()` is responsible only for input handling and orchestration.
+- **Range-based branching** — Kotlin’s when expression combined with range operators (2..5, 6..20) provides a clear and readable way to evaluate interval conditions.
 
-- **Single-point rounding strategy** — `roundToInt()` is applied only to the final computed value, ensuring arithmetic precision throughout the calculation and producing a deterministic integer output.
+- **Deterministic output mapping** — each possible condition maps directly to a single output, ensuring predictable program behavior.
 
-This structure keeps the solution **clear, deterministic, and aligned with common competitive programming practices**, while still reflecting principles used in production-grade software design.
+This approach keeps the implementation **simple, readable, and aligned with competitive programming best practices**.
 
 ---
 
@@ -170,16 +170,16 @@ The program performs a fixed number of operations regardless of input size.
 
 ## 📚 Learning Notes
 
-Even small algorithmic exercises are valuable opportunities to reinforce key engineering principles.
+This challenge reinforces fundamental programming concepts related to **control flow and conditional evaluation**.
 
-This challenge reinforces:
-- ✔ Correct Arithmetic Calculations
-- ✔ Input Parsing
-- ✔ Code Organization
-- ✔ Clean Separation of Logic
+Key takeaways include:
+- ✔ Identifying odd and even numbers
+- ✔ Applying conditional logic
+- ✔ Evaluating numeric ranges
+- ✔ Using Kotlin’s when expression for readable branching
 
-These practices are essential when building **production-grade mobile applications**, especially when dealing with **financial** or **transactional data**.
-  
+These concepts are foundational for building robust **application logic**, particularly in **validation**, **business rules**, and **decision-making systems**.
+
 ---
 
 ## 👩🏻‍💻 Author
@@ -220,3 +220,33 @@ Remote • Hybrid • Relocation
 ---
 
 #30DaysOfCode #Kotlin #Algorithms #ProblemSolving #SoftwareEngineering
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
