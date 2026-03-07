@@ -58,7 +58,6 @@ This repository contains the solution for **Day 2 – Operators from the HackerR
 The exercise focuses on:
 - **Calculating total meal cost** including tip and tax  
 - **Precise rounding** of floating-point operations  
-- **Safe input parsing** and defensive coding  
 
 The program reads:
 - **meal price** (Double)  
@@ -106,10 +105,118 @@ fun solve(meal_cost: Double, tip_percent: Int, tax_percent: Int): Unit
 }
 ```
 
+---
 
+## 🧠 Key Programming Concepts
 
+- **Arithmetic Operations:** Addition, multiplication, percentage calculation
+- **Rounding:** Converting floating-point total cost to nearest integer
+- **Separation of Concerns:** solve() handles business logic, main() handles input
 
+---
 
+## 🧩 Kotlin Features Used
 
+- readLine()
+- trim()
+- toDouble()
+- toInt()
+- roundToInt()
+- Non-null assertion operator (!!)
 
+---
 
+## 🏗 Architecture
+
+The solution was structured to separate responsibilities into small functions:
+| Component | Responsibility |
+|---|---|
+| `main()` | 📥 Reads and parses input |
+| `solve()` | ⚙️ Performs the cost calculation |
+
+This approach improves:
+- Readability
+- Maintainability
+
+---
+
+## ⚙️ Design Decisions
+
+Some engineering decisions made in this implementation:
+
+• **Input contract assumption** — `readLine()!!` is used because the HackerRank environment guarantees that valid input will always be provided. This keeps the implementation concise and avoids unnecessary defensive checks in a controlled runtime.
+
+• **Input normalization** — `trim()` ensures that any leading or trailing whitespace is removed before parsing values, preventing formatting inconsistencies from affecting the calculation.
+
+• **Deterministic numeric parsing** — `toDouble()` and `toInt()` are used for direct type conversion, ensuring predictable numeric inputs for the calculation pipeline.
+
+• **Separation of concerns** — the `solve()` function encapsulates the core calculation logic, while `main()` is responsible only for input handling and orchestration.
+
+• **Single-point rounding strategy** — `roundToInt()` is applied only to the final computed value, ensuring arithmetic precision throughout the calculation and producing a deterministic integer output.
+
+This structure keeps the solution **clear, deterministic, and aligned with common competitive programming practices**, while still reflecting principles used in production-grade software design.
+
+---
+
+## 📈 Complexity
+
+Time Complexity: **O(1)**
+
+Space Complexity: **O(1)**
+
+The program performs a fixed number of operations regardless of input size.
+
+---
+
+## 📚 Learning Notes
+
+Even small algorithmic exercises are valuable opportunities to reinforce key engineering principles.
+
+This challenge reinforces:
+- ✔ Correct Arithmetic Calculations
+- ✔ Input Parsing
+- ✔ Code Organization
+- ✔ Clean Separation of Logic
+
+These practices are essential when building **production-grade mobile applications**, especially when dealing with **financial** or **transactional data**.
+  
+---
+
+## 👩🏻‍💻 Author
+
+**Laura Oliveira**  
+Android Engineer | Kotlin Developer
+
+I build **modern Android applications using Kotlin/Java**, focusing on **clean architecture, scalability, and high-quality code**.
+
+### 🔧 Core Skills
+
+- Kotlin
+- Java
+- Android SDK
+- MVVM Architecture
+- Coroutines & Concurrency
+- Firebase
+- REST APIs
+
+🌍 Open to international opportunities
+
+Remote • Hybrid • Relocation
+
+---
+
+## 🔗 Connect with Me
+
+💼 **LinkedIn:** https://www.linkedin.com/in/laura-oliveira-mobile/
+
+🌐 **Portfolio:** https://laura-oliveira.github.io/
+
+📧 **Email:** laura.oliveira.tech@gmail.com
+
+---
+
+⭐ If you find this project helpful, consider **giving it a star!**
+
+---
+
+#30DaysOfCode #Kotlin #Algorithms #ProblemSolving #SoftwareEngineering
