@@ -172,8 +172,7 @@ The program is intentionally simple to match the competitive programming style u
 
 | Component | Responsibility |
 |---|---|
-| `Person class` | Encapsulates age state and behavior
- |
+| `Person class` | Encapsulates age state and behavior |
 | `main()` | 📥 Reads input and evaluates conditions |
 | `yearPasses()` | Simulates aging |
 | `amIOld()` | Determines the age category |
