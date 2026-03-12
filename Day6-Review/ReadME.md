@@ -81,6 +81,9 @@ Hce akr
 
 Rn ak
 
+📚 **Official Challenge**  
+https://www.hackerrank.com/challenges/30-review-loop
+
 ---
 
 # ⚡ Quick Start
