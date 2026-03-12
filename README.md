@@ -209,7 +209,7 @@ During the challenge, the following programming concepts are explored:
 | Day 3 | Conditional Statements | ✅ |
 | Day 4 | Class vs Instance | ✅ |
 | Day 5 | Loops | ✅ |
-| Day 6 | Review | ⏳ |
+| Day 6 | Review | ✅ |
 | Day 7 | Arrays | ⏳ |
 | Day 8 | Dictionaries & Maps | ⏳ |
 | Day 9 | Recursion | ⏳ |
