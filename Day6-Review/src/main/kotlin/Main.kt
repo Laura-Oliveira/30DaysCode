@@ -4,7 +4,7 @@ fun main()
 {
     var testCasesQt:Int = readLine()!!.trim().toInt()
 
-    for(count in 0 until testCasesQt)
+    repeat(testCasesQt)
     {
         var stringS:String = readLine()!!
         var listEven = mutableListOf<String>()
