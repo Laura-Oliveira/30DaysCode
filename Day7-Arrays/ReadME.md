@@ -1,6 +1,6 @@
 <div align="center"> 
 	
-# Kotlin 30 Days of Code — Day 6: Let's Review
+# Kotlin 30 Days of Code — Day 7: Arrays
 	
 </div>
 
@@ -23,9 +23,9 @@
 
 <div align="center">
 	
-Solutions for **Day 6 – Let's Review** from the **HackerRank 30 Days of Code challenge**, implemented in **Kotlin**.
+Solutions for **Day 7 – Arrays** from the **HackerRank 30 Days of Code challenge**, implemented in **Kotlin**.
 
-This exercise focuses on **string manipulation and index-based iteration**, separating characters based on **even and odd indices**.
+This exercise focuses on **array manipulation and iteration**, reversing the order of elements from a given list of integers.
 
 </div>
 
@@ -53,36 +53,30 @@ This exercise focuses on **string manipulation and index-based iteration**, sepa
 
 # 📌 Challenge Overview
 
-This repository contains the solution for **Day 6 – Let's Review from the HackerRank 30 Days of Code Challenge**, implemented using **Kotlin**.
+This repository contains the solution for **Day 7 – Arrays from the HackerRank 30 Days of Code Challenge**, implemented using **Kotlin**.
 
-The objective of this challenge is to **separate characters of a string based on their index parity**.
+The objective of this challenge is to **print the elements of an array in reverse order**.
 
 The program performs the following steps:
 
-1. Reads an integer `T` representing the number of test cases.
-2. For each test case, reads a string `S`.
-3. Iterates through the string characters.
-4. Separates characters into two groups:
-   - **Even-indexed characters**
-   - **Odd-indexed characters**
-5. Prints both groups separated by a space.
+1. Reads an integer `n`, representing the size of the array.
+2. Reads a line containing `n` space-separated integers.
+3. Stores the values in an array or list structure.
+4. Reverses the order of the elements.
+5. Prints the reversed sequence as a **single line of space-separated numbers**.
 
-**Example input:**
+**Example Input:**
 
-2
+4
 
-Hacker
+1 4 3 2
 
-Rank
+**Example Output:**
 
-**Example output:**
-
-Hce akr
-
-Rn ak
+2 3 4 1
 
 📚 **Official Challenge**  
-https://www.hackerrank.com/challenges/30-review-loop
+https://www.hackerrank.com/challenges/30-arrays
 
 ---
 
@@ -97,28 +91,25 @@ java -jar program.jar
 
 ---
 
+---
+
 ## 💡 Example Solution
 
 ```kotlin
 fun main()
 {
-    var testCasesQt:Int = readLine()!!.trim().toInt()
+    val n = readLine()!!.trim().toInt()
+    val arr = readLine()!!
+        .trimEnd()
+        .split(" ")
+        .map{ it.toInt() }
+        .toTypedArray()
 
-    for(count in 0 until testCasesQt)
+    val reversedArray = arr.reversedArray()
+
+    for(count in reversedArray.indices)
     {
-        var stringS:String = readLine()!!
-        var listEven = mutableListOf<String>()
-        var listOdd = mutableListOf<String>()
-
-        for(countString in stringS.indices)
-        {
-            when(countString % 2)
-            {
-                0 -> listEven.add("${stringS[countString]}")
-                1 -> listOdd.add("${stringS[countString]}")
-            }
-        }
-        println("${listEven.joinToString("")} ${listOdd.joinToString("")}")
+        print("${reversedArray[count]} ")
     }
 }
 ```
@@ -128,20 +119,20 @@ fun main()
 ## 🧠 Key Programming Concepts
 
 This challenge reinforces several important programming concepts:
-- **String iteration** — traversing characters within a string
-- **Index-based logic** — identifying even and odd positions
-- **Modulo operator** — determining parity of indices
-- **Loop control structures** — processing multiple test cases
-- **Output formatting** — combining results into structured output
+- **Arrays and lists** — storing collections of integers
+- **Iteration** — processing elements of a collection
+- **Data transformation** — reversing element order
+- **Input parsing** — converting strings into numeric values
+- **Output formatting** — printing structured results
 
 ---
 
 ## 🧩 Kotlin Features Used
 
 Key Kotlin features used in this implementation:
--	repeat() function for iterating test cases
-- for loops with indices
-- readLine() for input parsing
+-	split() for parsing space-separated values
+- map {} for transforming strings into integers
+- reversed() for reversing list order
 - trim() for whitespace normalization
 - toInt() for numeric conversion
 - Kotlin string interpolation ($variable)
@@ -155,10 +146,10 @@ The program is intentionally simple to match the competitive programming style u
 
 | Component | Responsibility |
 |---|---|
-| `main()` | Handles input processing and program flow |
-| `repeat()` | Executes the logic for each test case |
-| `for (i in text.indices)` | Iterates through characters of the string |
-| `Parity logic` | Separates even and odd indexed characters |
+| `main()` | Handles input parsing and output generation |
+| `split()` | Converts input string into individual values |
+| `map()` | Transforms strings into integers |
+| `reversed()` | Reverses the order of the array |
 | `println()` | Prints formatted results |
 
 All logic is implemented directly within main() to keep the solution concise and aligned with HackerRank challenge constraints.
@@ -171,11 +162,9 @@ Some engineering decisions made in this implementation:
 
 - **Input contract assumption — readLine()!!** is used because the HackerRank environment guarantees that valid input will always be provided.
 - **Input normalization — trim()** removes leading and trailing whitespace before parsing the integer.
-- **Index-based traversal — using text.indices** ensures safe iteration across all characters in the string.
-- **Parity detection with modulo — the % operator** is used to determine whether an index is even or odd.
-- **Deterministic output structure** — each string is always split into two predictable groups: even-indexed characters followed by odd-indexed characters.
-- **String interpolation — Kotlin** string templates ("${listEven.joinToString("")} ${listOdd.joinToString("")}") provide a clean and readable way to format output.
-- **Single-responsibility logic** — the program keeps all operations simple and sequential: read input → iterate → print results.
+- **Functional transformation — split() and map()** convert the raw input string into a structured list of integers.
+- **Built-in list reversal — reversed()** leverages Kotlin’s standard library to simplify reversing operations.
+- **Concise pipeline processing** — input parsing, transformation, and output formatting are chained together for readability and simplicity.
 
 This approach keeps the solution **simple, readable, and aligned with competitive programming best practices**.
 
@@ -185,11 +174,11 @@ This approach keeps the solution **simple, readable, and aligned with competitiv
 
 Time Complexity: **O(n)**
 
-Where n is the length of the input string.
+Where n is the number of elements in the array.
 
 Space Complexity: **O(n)**
 
-Additional space is used to store the separated even and odd characters.
+Additional space is used to store the array and its reversed representation.
 
 ---
 
@@ -198,12 +187,12 @@ Additional space is used to store the separated even and odd characters.
 This challenge reinforces **string traversal and index-based logic**, hich are common in algorithmic problem solving.
 
 **Key takeaways:**
-- ✔ Iterating through string indices
-- ✔ Identifying even and odd positions
-- ✔ Splitting data based on conditions
+- ✔ Parsing arrays from input
+- ✔ Transforming collections using functional operations
+- ✔ Reversing data structures
 - ✔ Formatting structured output
 
-These concepts are fundamental for solving problems involving **text processing**, **data transformation**, and **algorithm design**.
+These techniques are fundamental for implementing **data processing pipelines**, **algorithm design**, and **efficient collection handling**.
 
 ---
 
