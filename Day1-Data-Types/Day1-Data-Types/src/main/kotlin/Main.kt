@@ -2,9 +2,9 @@ package org.days.code
 
 fun main()
 {
-    var inputInt:Int? = readlnOrNull()?.toIntOrNull()
-    var inputDouble:Double? = readlnOrNull()?.toDoubleOrNull()
-    var inputString:String = readlnOrNull().orEmpty()
+    val inputInt:Int? = readlnOrNull()?.toIntOrNull()
+    val inputDouble:Double? = readlnOrNull()?.toDoubleOrNull()
+    val inputString:String = readlnOrNull().orEmpty()
 
     combineData(inputInt, inputDouble, inputString)
 }
