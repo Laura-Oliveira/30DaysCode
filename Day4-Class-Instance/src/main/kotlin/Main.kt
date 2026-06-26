@@ -15,8 +15,17 @@ class Person(initialAge:Int)
         { age = initialAge }
     }
 
+    //Do I need to use the result somewhere else?
+        //If yes -> return type + return statement
+        //If not -> returns Unit value by default
+    //2 Categories:
+        //Perform Action: print, increment, save -> it don't need result statement
+        //Produces Value: calculate, get, convert -> it need a result statement
+
+    //Void Function, Unit Data Type implied
     fun yearPasses() { age++ }
 
+    //Void Function, Unit Data Type implied
     fun amIOld()
     {
         when
@@ -30,15 +39,19 @@ class Person(initialAge:Int)
 
 fun main()
 {
-    val T:Int = readLine()!!.trim().toInt()
+    //readlnOrNull() -> reads the line, returns null if there's no input
+    // ?. -> only calls the next function if the value is not null
+    //.? only calls the next function it's not null
+    // ?: -> Elvis Operator, If the result is null, use 0 instead
+    val inputData:Int = readlnOrNull()?.trim()?.toInt() ?: 0
 
-    for(count in 0..T)
+    for(count in 0..inputData)
     {
         val personAge = readLine()!!.trim().toInt()
         val person = Person(personAge)
         person.amIOld()
 
-        repeat(3)
+        repeat(count)
         { person.yearPasses() }
 
         person.amIOld()
