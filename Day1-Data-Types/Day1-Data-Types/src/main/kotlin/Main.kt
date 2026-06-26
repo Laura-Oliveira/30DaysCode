@@ -15,7 +15,7 @@ fun combineData(inputInt:Int?, inputDouble:Double?, inputString:String)
     val dataDouble:Double = 4.0
     val dataString:String = "HackerRank "
     val isValid = validateFields(inputInt, inputDouble, inputString)
-
+ 
     if(dataInt != null && dataDouble != null && dataString.isNotBlank())
     {
         println("Fields cannot be null or empty")
