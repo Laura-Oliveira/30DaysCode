@@ -32,10 +32,10 @@ fun main()
 {
     val T:Int = readLine()!!.trim().toInt()
 
-    for(count in 0 until T)
+    for(count in 0..T)
     {
-        var age = readLine()!!.trim().toInt()
-        val person = Person(age)
+        val personAge = readLine()!!.trim().toInt()
+        val person = Person(personAge)
         person.amIOld()
 
         repeat(3)
