@@ -2,11 +2,10 @@ package org.days.code
 
 fun main()
 {
-    val n = readLine()!!.trim().toInt()
-    var count:Int = 1
+    val inputData = readlnOrNull()?.trim()?.toIntOrNull() ?: 0
 
-    for(count in count..10)
+    for(count in 1..inputData)
     {
-        println("${n} x ${count}" + " = " + n * count)
+        println("$inputData x $count" + " = " + (inputData * count))
     }
 }
