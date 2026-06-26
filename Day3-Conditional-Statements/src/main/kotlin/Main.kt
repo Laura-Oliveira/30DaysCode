@@ -4,7 +4,7 @@ import kotlin.text.*
 
 fun main()
 {
-    val N = readLine()!!.trim().toInt()
+    val N = readlnOrNull()?.trim()?.toInt() ?: 0
 
     if(N % 2 != 0)
     {
