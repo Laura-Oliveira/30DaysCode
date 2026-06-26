@@ -2,7 +2,7 @@ package org.days.code
 
 fun main()
 {
-    val loopCounts = readlnOrNull()?.trim()?.toIntOrNull() ?: 0
+    val loopCounts:Int = readlnOrNull()?.trim()?.toIntOrNull() ?: 0
 
     repeat(loopCounts)
     {

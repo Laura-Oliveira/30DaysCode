@@ -47,7 +47,7 @@ fun main()
 
     for(count in 0..inputData)
     {
-        val personAge = readLine()!!.trim().toInt()
+        val personAge = readlnOrNull()?.trim()?.toIntOrNull() ?: 0
         val person = Person(personAge)
         person.amIOld()
 
