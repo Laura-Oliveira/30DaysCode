@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.plugin.kotlinToolingVersion
+
 plugins {
     kotlin("jvm") version "2.3.0"
 }
@@ -15,6 +17,9 @@ dependencies {
 
 kotlin {
     jvmToolchain(25)
+//    compilerOptions {
+//        languageVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_2)
+//    }
 }
 
 tasks.test {

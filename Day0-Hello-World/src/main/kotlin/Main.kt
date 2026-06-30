@@ -2,13 +2,13 @@ package org.days.code
 
 fun main()
 {
-    var helloWorld: String = "Hello, World."
+    val helloWorld: String = "Hello, World."
 
     //prevents null or empty inputs
-    var input: String? = readlnOrNull().orEmpty()
+    val input: String = readlnOrNull().orEmpty().trim()
 
     //validate the inputs and require a value from the user
-    require(!input.isNullOrBlank())
+    require(input.isNotBlank())
     {
         "Field cannot be null or blank."
     }
